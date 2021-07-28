@@ -1,0 +1,279 @@
+/*--------------------------Home Page Style-----------------------------------*/
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header p {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    margin-left: 4px;
+    font-weight: bold;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+
+
+header #search {
+    float: right;
+    margin-right: 4px;
+}
+
+header #search:hover {
+    color: red;
+}
+
+div #searchbar {
+    padding-right: 10px;
+    margin-right: 10px;
+    display: none;
+}
+
+div input[type=text] {
+    height: 18pt;
+
+}
+
+
+.projectthumb {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.projectthumb a img {
+    transition: transform 0.25s;
+}
+
+.projectthumb a img:hover {
+    transform: scale(1.05);
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+div.entercontainer {
+    text-align: center;
+
+}
+
+div #enterbtn {
+    margin-top: 60px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: grey;
+    font-size: 24pt;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+}
+
+a #enterbtn:hover {
+    transform: scale(1.2);
+}
+
+
+/*-------------------------- Page Content Style-----------------------------------*/
+
+main {
+    display: flex;
+}
+
+
+div.pagecontent {
+    width: 90%;
+    margin-left: 60px;
+
+}
+
+div.pagecontent #page-title {
+    color: white;
+    font-weight: bold;
+    font-size: 24pt;
+    text-transform: uppercase;
+    background-color: orange;
+    padding-left: 4px;
+}
+
+div.pagecontent #page-quote {
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 4px;
+    font-size: 20pt;
+    color: grey;
+}
+
+div.pagecontent #page-content {
+    padding-top: 20px;
+    font-weight: bold;
+    width: 90%;
+}
+
+div.pagecontent #page_img {
+    margin-top: 10px;
+    width: 100%;
+    height: 600px;
+}
+
+div.pagecontent #page-end {
+    color: orange;
+    background-color: orange;
+    margin-top: 10em;
+}
+
+body {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+body #navigation {
+    text-decoration: none;
+    float: left;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 14pt;
+    width: 12em;
+    /*border: 5px solid rgba(0, 0, 0, 0.3);*/
+    border-radius: 10px;
+    margin-bottom: 1em;
+    color: blak;
+}
+
+#navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li a {
+    display: block;
+    border-radius: 10px;
+    border-top: thin dotted rgba(0, 0, 0, 0.3);
+    border-bottom: thin dotted rgba(0, 0, 0, 0.3);
+    border-left: 5px solid rgba(0, 0, 0, 0.3);
+    border-right: 5px solid rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: black;
+    padding: 2px 2px 2px 0.5em;
+}
+
+#navigation ul ul a {
+    list-style: none;
+    padding-left: 1.5em;
+    font-size: 85%;
+    font-weight: normal;
+}
+
+#navigation ul ul ul a {
+    list-style: none;
+    padding-left: 2.5em;
+    font-size: 75%;
+    font-weight: normal;
+}
+
+#navigation ul ul ul ul a {
+    list-style: none;
+    padding-left: 3.5em;
+    font-size: 75%;
+    font-weight: normal;
+}
+
+}
+
+#navigation a:visited {
+    color: orange;
+}
+
+#navigation a:hover {
+    color: #fff;
+    background-color: darkgrey;
+}
+
+#navigation a:active {
+    color: #fff;
+    background-color: yellow;
+}
+
+#navigation #iamhere > a {
+    background-color: darkgrey;
+}
+
+#navigation #iamhere > a:hover {
+    color: #fff;
+    background-color: darkgrey;
+}
+
+
+/*--------------------------Footer Style-----------------------------------*/
+
+footer {
+    color: black;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-top: dotted rgba(0, 0, 0, 0.5);
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 19pt;
+    font-weight: bold;
+    justify-content: center;
+    padding-top: 6px;
+}
+
+
+
+footer a:active,
+footer a:hover,
+footer a:link,
+footer a:visited {
+    color: black;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+footer nav ul li img {
+    width: 150px;
+    height: 43px;
+    opacity: 50%;
+}
+
+
+/*--------------------------Fitness Park Page Style-----------------------------------*/
+
+article #para_img {
+    width: 100px;
+    height: 130px;
+    float: left;
+    clear: right;
+    padding: 0.5em;
+    padding-top: 0em;
+    margin-top: 0;
+}
+
+div.projectgallery {
+    margin-top: 4em;
+    text-align: center;
+}
+
+div.projectgallery a {
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+.projectgallery a img {
+    transition: transform 0.25s;
+}
+
+.projectgallery a img:hover {
+    transform: scale(1.05);
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
